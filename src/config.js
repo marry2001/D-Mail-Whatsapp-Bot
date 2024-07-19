@@ -13,7 +13,7 @@ const config = {
   session: process.env.SESSION || 'JFLEX',
   prefix: process.env.PREFIX || '-',
   owner: `${process.env.OWNER}@s.whatsapp.net`,
-  adminsGroup: process.env.ADMINGC || '120363047969486676@g.us',
+  adminsGroup: process.env.ADMINGC || '120363239524358728@g.us',
   stickerPack: process.env.STICKERPACK,
   stickerAuthor: process.env.STICKERAUTHOR,
   TENOR_API_KEY: process.env.TENOR_API_KEY || 'YOUR_TENOR_API_KEY',
