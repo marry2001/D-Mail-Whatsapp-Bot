@@ -9,8 +9,8 @@ import CommandLoader from './frameWork/commands.js'
 loadEnvConfig();
 
 const config = {
-  name: process.env.NAME || 'D-Mail',
-  session: process.env.SESSION || 'session',
+  name: process.env.NAME || 'Maria-2',
+  session: process.env.SESSION || 'JFLEX',
   prefix: process.env.PREFIX || '-',
   owner: `${process.env.OWNER}@s.whatsapp.net`,
   adminsGroup: process.env.ADMINGC || '120363047969486676@g.us',
