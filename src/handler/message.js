@@ -101,7 +101,7 @@ export default class MessageHandler {
         const commands = Array.from(this.client.commands.commands.keys());
         const suggestion = didYouMean(commandName, commands);
         if (suggestion) {
-            return M.reply(`No such command as ${commandName}\ndid you mean *${suggestion}*? \n\nType *${this.client.config.prefix}help* to see commands!`);
+            return M.reply(`No such command as ${commandName}\ndid you mean *${suggestion}*? \n\nType *${this.client.config.prefix}mods* to ask JFLEX!`);
         } else {
             M.reply(`No such command, Type *${this.client.config.prefix}help* to see commands!`)
         }
